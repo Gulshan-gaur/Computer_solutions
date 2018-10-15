@@ -1,2 +1,2 @@
-# computer_solutions
-**You can find various solution of computer problems**
+# Computer_solutions
+##**You can find various solution of computer problems**
