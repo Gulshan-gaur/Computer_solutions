@@ -1,9 +1,2 @@
 theme: jekyll-theme-cayman
-layout: post
-gems:
-  - jekyll-feed
-  - jekyll-mentions
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jemoji
- 
+
