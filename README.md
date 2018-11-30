@@ -2,7 +2,7 @@
 ## You can find various solutions 
 ##  1. GPU configuration for deep learning model(tesorflow-gpu) in ubuntu 18.04     
 you need to check your driver version.   
-`sudo ubuntu-driver devices`
+`sudo ubuntu-drivers devices`
 
  You can check your ubuntu additional software and drivers and install drivers   
  Install CUDA Toolkit 10.0 from [Cuda toolkit](https://developer.nvidia.com/cuda-toolkit)
