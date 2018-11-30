@@ -22,7 +22,9 @@ sudo chmod a+r /usr/local/cuda-10.0/include/cudnn.h /usr/local/cuda/lib64/libcud
 sudo apt-get install libcupti-dev
 ## Do the CUDA post-install actions
 export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}
-export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}  
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}      
+activate source   
+source ~/.bashrc  
 ## Install Tensorflow GPU  
 pip install --upgrade tensorflow-gpu  
 ```
