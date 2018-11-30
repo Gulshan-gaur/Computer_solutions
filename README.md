@@ -1,14 +1,13 @@
 # Computer_solutions  
 ## You can find various solutions 
-##  GPU configuration for deep learning model(tesorflow-gpu) in ubuntu 18.04     
+##  1. GPU configuration for deep learning model(tesorflow-gpu) in ubuntu 18.04     
 you need to check your driver version.   
 `sudo ubuntu-driver devices`
 
  You can check your ubuntu additional software and drivers and install drivers 
- Install CUDA Toolkit 10.0 from https://developer.nvidia.com/cuda-toolkit
+ Install CUDA Toolkit 10.0 from [Cuda toolkit](https://developer.nvidia.com/cuda-toolkit)
  
- Install CUDNN 9.0 library   
- https://developer.nvidia.com/cudnn   
+ Install CUDNN 9.0 library[CUDNN 9.0 library ](https://developer.nvidia.com/cudnn)  
  you need to signup here (it's free). Once downloaded, unpack the archive and move it the contents into the directory where you install CUDA 10.0   
 ```
 ## Unpack the archive
